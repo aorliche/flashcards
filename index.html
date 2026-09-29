@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Flashcards</title>
+		<link rel='stylesheet' href='css/index.css'>
+		<script type='module' src='js/index.js'></script>
+	</head>
+	<body>
+		<div id='container'>
+			<div id='left'>
+				<h3>Front</h3>
+				<canvas height='300' width='500' id='front-canvas'></canvas>
+				<h3>Back</h3>
+				<canvas height='300' width='500' id='back-canvas'></canvas>
+				<p>
+					<button id='download-front'>Download front</button>
+					<button id='download-back'>Download back</button>
+				</p>
+			</div>
+			<div id='right'>
+				<h3>Place Humbers</h3>
+				<input type='radio' id='hum-1' name='humbers' checked />
+				<label for='hum-1'>First humber</label>
+				<input type='radio' id='hum-2' name='humbers' />
+				<label for='hum-1'>Second humber</label>
+				<h3>Numpad</h3>
+				<div id='numpad'></div>
+			</div>
+		</div>
+	</body>
+</html>

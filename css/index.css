@@ -1,0 +1,39 @@
+@font-face {
+	font-family: "HunimalSans";
+	src: url('../font/HunimalSansv1.5.ttf');
+}
+
+#container {
+	font-family: "HunimalSans";
+}
+
+canvas {
+	border: 1px solid black;
+	margin: 5px;
+}
+
+#left {
+	width: 510px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#right {
+	width: 400px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.numpad {
+	border-collapse: collapse;
+}
+
+.numpad td {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.numpad td:hover {
+	cursor: pointer;
+	background-color: #99f;
+}
