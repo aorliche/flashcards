@@ -29,7 +29,7 @@ function longHumText(dec) {
 	} else {
 		const dec1 = Math.floor(dec/100);
 		const dec2 = dec % 100;
-		return words[dec1] + '-ion ' + words[dec2];
+		return words[dec1] + ' Hun ' + words[dec2];
 	}
 }
 
