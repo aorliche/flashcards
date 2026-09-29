@@ -13,7 +13,7 @@ canvas {
 }
 
 #left {
-	width: 510px;
+	width: 1050px;
 	display: inline-block;
 	margin-right: 20px;
 }
@@ -22,6 +22,21 @@ canvas {
 	width: 400px;
 	display: inline-block;
 	vertical-align: top;
+}
+
+#front-back {
+	width: 1050px;
+	display: inline-block;
+}
+
+#left-front {
+	width: 515px;
+	display: inline-block;
+}
+
+#left-back {
+	width: 515px;
+	display: inline-block;
 }
 
 .numpad {
